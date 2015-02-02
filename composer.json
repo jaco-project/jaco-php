@@ -1,0 +1,20 @@
+{
+	"name": "jaco/Jaco",
+	"description": "Japanise Character Optimizer",
+	"keywords": [
+		"Japanise",
+		"hiragana",
+		"katakana",
+		"converter"
+	],
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-0": {
+			"jaco_Jaco": "lib/"
+		}
+	}
+}
