@@ -1,0 +1,35 @@
+{
+  "name": "jaco-php",
+  "version": "2.0.0",
+  "description": "Japanese Character Optimizer.",
+  "main": "lib/jaco/Jaco.php",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaco-project/jaco-php"
+  },
+  "keywords": [
+    "japanese",
+    "javascript",
+    "string",
+    "character",
+    "katakana",
+    "hiragana"
+  ],
+  "author": "YusukeHirao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaco-project/jaco-php/issues"
+  },
+  "homepage": "http://jaco-project.github.io/docs/",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-phpunit": "^0.3.6"
+  }
+}

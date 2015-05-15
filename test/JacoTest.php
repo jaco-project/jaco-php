@@ -1,7 +1,6 @@
 <?php
 
-// require_once '../vendor/autoload.php';
-include "../lib/jaco/Jaco.php";
+require_once 'lib/jaco/Jaco.php';
 
 class JacoTest extends PHPUnit_Framework_TestCase {
 
